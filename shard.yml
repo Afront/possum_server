@@ -1,0 +1,13 @@
+name: possum_server
+version: 0.1.0
+
+authors:
+  - Afront <3943720+Afront@users.noreply.github.com>
+
+targets:
+  possum_server:
+    main: src/possum_server.cr
+
+crystal: 0.34.0
+
+license: MIT
