@@ -11,3 +11,13 @@ targets:
 crystal: 0.34.0
 
 license: MIT
+
+dependencies:
+  db:
+    github: crystal-lang/crystal-db
+  kemal:
+    github: kemalcr/kemal
+  kemal-session:
+    github: kemalcr/kemal-session
+  mysql:
+    github: crystal-lang/crystal-mysql
