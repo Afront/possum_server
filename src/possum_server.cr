@@ -39,8 +39,6 @@ module PossumServer
     "#{username}'s password is #{password}"
   end
 
-  get
-
   get "/currencies/physical/{currency}" do |env|
     param_hash = env.params.query
     "Currently not supported."
